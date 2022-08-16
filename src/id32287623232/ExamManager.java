@@ -30,7 +30,6 @@ public class ExamManager implements Comparator<Question>, Serializable, Cloneabl
 	private int amount;
 
 	public ExamManager() {
-		// aksldkljasdas
 		this.questions = new Vector<Question>();
 		this.listeners = new Vector<ExamEventsListener>();
 
